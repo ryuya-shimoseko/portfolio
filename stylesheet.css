@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+/*-----共通レイアウト-----*/
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fff;
+    font-size: 24px;
+}
+
+/*
+index以外のheader
+*/
+#allheader{
+    width: 1600px;
+    height: 300px;
+    margin: 15px auto 10px auto;
+    background: url(../images/header1.jpg) no-repeat;
+}
+
+/*
+menu
+*/
+menu ul {
+    list-style: none;
+}
+menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+menu ul li a:hover{
+    opacity: 0.9;
+	background: #777;
+}
+
+/*
+nav
+*/
+nav{
+    width: 1578px;
+    height: 80px;
+    margin: 30px auto 10px auto;
+}
+nav ul li {
+	list-style-type: none;
+}
+nav ul li{
+    font-size: 30px;
+	width: 263px;
+	float: left;
+    text-align: center;
+    border: 3px solid #fff;
+}
+nav ul li a{
+	text-align: center;
+	display: block;
+	line-height: 80px;
+    background: url(../images/backcolor.jpeg) no-repeat;
+}
+nav ul li a:hover{
+    opacity: 0.9;
+	background: #aaa;
+}
+
+/*
+パンくずリスト
+*/
+#breadcrumb{
+    width: 580px;
+    margin: 40px auto 12px auto;
+}
+#breadcrumb li{
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+#breadcrumb ul li a:hover{
+    opacity: 0.9;
+	background: #eee;
+}
+
+/*
+SNS
+*/
+#sns {
+    width: 400px;
+    height: 200px;
+    margin: 75px auto 0 auto;
+    clear: both;
+}
+#sns ul {
+    list-style-type: none;
+}
+#sns a:hover{
+    opacity: 0.9;
+	background: #ddd;
+}
+#sns a{
+    display: block;
+    text-align: center;
+}
+.insta{
+    float: left;
+    padding: 40px 0 0 40px;
+}
+.x{
+    float: right;
+    padding: 43px 45px 0 0;
+}
+
+/*
+footer
+*/
+footer {
+    clear: both;
+    width: 800px;
+    height: 250x;
+    margin: 75px auto 0 auto;
+    text-align: center;
+}
+.return:hover{
+    opacity: 0.9;
+	background: #eee;
+}
+/*-----共通レイアウトここまで-----*/
+
+/*-----index-----*/
+/*
+index header
+*/
+#indextop {
+    width: 1600px;
+    height: 766px;
+    margin: 15px auto 10px auto;
+    background: url(../images/main.jpeg) no-repeat;
+}
+
+/*
+index images
+*/
+#images {
+    clear: both;
+    width: 1600px;
+    height: 800px;
+    margin: 30px auto 0 auto;
+    background-color: #eee;
+}
+.images1 {
+    width: 800px;
+    height: 800px;
+    float: left;
+    padding: 25px 0 0 30px;
+}
+.images1 ul li {
+    list-style-type: none;
+}
+.images2 {
+    width: 800px;
+    height: 800px;
+    float: right;
+    padding: 25px 0 0 20px;
+}
+.images2 ul li {
+    list-style-type: none;
+}
+
+/*
+index news
+*/
+section {
+    clear: both;
+    width: 800px;
+    height: 600px;
+    margin: 50px auto 0 auto;
+    padding-left: 0;
+    text-align: left;
+    line-height: 4;
+}
+section h1 {
+    text-align: center;
+    border-bottom: 2px solid #333;;
+}
+section ul li{
+    width: 800px;
+    list-style-type: none;
+    border-bottom: 2px solid #333;
+    padding-left: 200px;
+}
+section ul li a:hover{
+    opacity: 0.9;
+	background: #bbb;
+}
+section ul li time {
+    margin-right: 30px;
+}
+/*---indexレイアウトここまで---*/
+
+/*-----conceptレイアウト-----*/
+main {
+    width: 1600px;
+    margin: 40px auto 10px auto;
+    text-align: center;
+    line-height: 3;
+}
+article h2 {
+    line-height: 0.8;
+    margin-bottom: 50px;
+}
+.bottom {
+    padding-bottom: 30px;
+}
+.bottom2 {
+    padding-bottom: 60px;
+}
+.bold {
+    font-weight: bold;
+}
+.top{
+    padding-top: 30px;
+}
+.big{
+    font-size: 30px;
+}
+.left30 {
+    padding-left: 30px;
+}
+/*-----conceptレイアウトここまで-----*/
+
+/*-----auter tops pants other------*/
+#pop {
+    width: 1600px;
+    height: 1500px ;
+    margin: 30px auto px auto;
+}
+
+/*-----auter-----*/
+.main1 {
+    width: 500px;
+    float: left;
+}
+
+/*-----tops-----*/
+.tops, .tops2 {
+    width: 1600px;
+}
+
+.tops, .tops2, ul li {
+    float: left;
+    list-style: none;
+}
+
+.right {
+    margin-right: 50px;
+}
+
+.left10 {
+    padding-left: 10px;
+}
+/*-----------ここまで----------*/
+
+/* account レイアウト */
+#signin {
+    text-align: center;
+    line-height: 2;
+    width: 600px;
+    margin: 150px auto 200px;
+    border: 2px solid #ccc;
+
+}
+#signin h1 {
+    background-color:  #aaa;
+    color: #fff;
+}
+
+p input {
+    text-align: center;
+}
+
+.top2 {
+    margin-top: 20px;
+}
+
+.under2 {
+    margin-bottom: 25px;
+}
+
+/*accesse レイアウト*/
+main table{
+    width: 800px;
+    margin: 50px auto;
+}
+
+#access__map {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.frame {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/*contact*/
+.contactform h1,p{
+    text-align: center;
+    line-height: 2;
+    margin: 10px auto 10px auto;
+}
